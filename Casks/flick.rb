@@ -8,7 +8,7 @@ cask "flick" do
   desc "Convert, edit and act on files from a radial wheel at your cursor"
   homepage "https://github.com/Ali-Fayed/flick"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Flick.app"
